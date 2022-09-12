@@ -29,11 +29,11 @@ const Profile: NextPage = ({ user }: any) => {
                   <div className="col-lg-4 col-md-5">
                     <div className="user-profile-left">
                       <div className="user-thumbnail">
-                        <img
+                        {/* <img
                           src={user?.photo}
                           className="img-fluid"
                           alt="user"
-                        />
+                        /> */}
                       </div>
                       <div className="user-profile-content">
                         <h2>{user?.first_name + " " + user?.last_name}</h2>

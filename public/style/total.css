@@ -7747,7 +7747,7 @@ textarea.form-control.textarea {
   align-items: center;
   padding: 85px 100px;
   background: #000000;
-  border: 4px solid #f9b507;
+  /* border: 4px solid #f9b507; */
   box-sizing: border-box;
   backdrop-filter: blur(30px);
   border-radius: 15px;

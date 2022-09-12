@@ -29,12 +29,13 @@ const Signin: NextPage = () => {
   return (
     <div
       className="user-content-wrapper"
-      style={{
-        backgroundImage: `url(/user-content-wrapper-bg.jpg)`,
-      }}
+      // style={{
+      //   backgroundImage: `url(/user-content-wrapper-bg.jpg)`,
+      // }}
     >
       <div className="user-content-inner-wrap">
         <div className="row align-items-center">
+          <div className="col-md-3"></div>
           <div className="col-md-6">
             <div className="user-form">
               <div className="user-form-inner">
@@ -128,7 +129,7 @@ const Signin: NextPage = () => {
                           </Link>
                         </div>
                       </div>
-                      {recaptchaData?.NOCAPTCHA_SITEKEY &&
+                      {/* {recaptchaData?.NOCAPTCHA_SITEKEY &&
                         recaptchaData?.google_recapcha === "1" && (
                           <ReCAPTCHA
                             sitekey={recaptchaData?.NOCAPTCHA_SITEKEY}
@@ -137,7 +138,7 @@ const Signin: NextPage = () => {
                               setFieldValue("recapcha", response);
                             }}
                           />
-                        )}
+                        )} */}
 
                       <button
                         type="submit"
@@ -163,7 +164,7 @@ const Signin: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <div className="user-content-text text-center">
               <h3>{t("Welcome To")}</h3>
               <Link href="/">
@@ -177,7 +178,7 @@ const Signin: NextPage = () => {
                 </p>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

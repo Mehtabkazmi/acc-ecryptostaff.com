@@ -24,7 +24,7 @@ const WirhdrawTab = ({ response, TurnoffSetShow }: any) => {
     } else {
       setErrorMessage({
         status: true,
-        message: "Google 2FA is not enabled",
+        message: "Binance is not enabled",
       });
     }
   };

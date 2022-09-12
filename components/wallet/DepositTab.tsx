@@ -66,6 +66,7 @@ const DepositTab = ({ response, TurnoffSetShow }: any) => {
                 </p>
               </div>
               <div className="input-url">
+              <span className="text-muted">Show me how to change wallet id deposit</span>
                 <input
                   type="url"
                   className="form-control"

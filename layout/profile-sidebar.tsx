@@ -43,11 +43,11 @@ const ProfileSidebar = () => {
               }
             >
               <a href="/user/profile-verification-list">
-                {t("KYC Verification")}
+                {t("Binance Verification")}
               </a>
             </li>
           </Link>
-          <Link href="/user/personal-verification">
+          {/* <Link href="/user/personal-verification">
             <li
               className={
                 router.pathname == "/user/personal-verification" ? "active" : ""
@@ -57,7 +57,7 @@ const ProfileSidebar = () => {
                 {t("Personal Verification")}
               </a>
             </li>
-          </Link>
+          </Link> */}
           <Link href="/user/change-password">
             <li
               className={

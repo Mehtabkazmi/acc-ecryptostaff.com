@@ -20,17 +20,17 @@ const VerificationList: NextPage = () => {
       <ProfileSidebar />
       <div className="page-main-content">
         <div className="container-fluid">
-          <div className="section-top-wrap mb-25">
+          {/* <div className="section-top-wrap mb-25">
             <h2 className="section-top-title mb-0">
               {t("Personal Verification")}
             </h2>
-          </div>
+          </div> */}
           <div className="verification-list-area">
             <h4 className="section-title-medium">{t("Verification List")}</h4>
             <div className="section-wrapper">
               <div className="row">
                 <div className="col-lg-4 col-md-6">
-                  <div className="single-verification">
+                  {/* <div className="single-verification">
                     <h3 className="verification-title">
                       {t("National Id Card Verification")}
                     </h3>
@@ -44,11 +44,11 @@ const VerificationList: NextPage = () => {
                     <Link href="/user/personal-verification">
                       <a className="primary-btn-sm">{t("Start now")}</a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col-lg-4 col-md-6">
                   <div className="single-verification">
-                    <h3 className="verification-title">
+                    {/* <h3 className="verification-title">
                       {t("Passport Verification")}
                     </h3>
                     <ul className="verification-list">
@@ -57,14 +57,14 @@ const VerificationList: NextPage = () => {
                           {kycDetails?.passport?.status}
                         </span>
                       </li>
-                    </ul>
+                    </ul> */}
                     <Link href="/user/personal-verification">
-                      <a className="primary-btn-sm">{t("Start now")}</a>
+                      <a className="primary-btn-sm">{t("Binance Login")}</a>
                     </Link>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="single-verification">
+                  {/* <div className="single-verification">
                     <h3 className="verification-title">
                       {t("Driving Licence Verification")}
                     </h3>
@@ -80,7 +80,7 @@ const VerificationList: NextPage = () => {
                     <Link href="/user/personal-verification">
                       <a className="primary-btn-sm">{t("Start now")}</a>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

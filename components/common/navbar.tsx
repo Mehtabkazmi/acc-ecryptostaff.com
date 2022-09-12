@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-xl-2 col-lg-2 col-4">
               <div className="cp-user-logo">
-                <Link href="/">
+                {/* <Link href="/"> */}
                   <a href="">
                     <img
                       src="/logo.svg"
@@ -45,7 +45,7 @@ const Navbar = () => {
                       alt=""
                     />
                   </a>
-                </Link>
+                {/* </Link> */}
               </div>
             </div>
             <div className="col-xl-8 col-lg-8 d-none d-lg-block">
