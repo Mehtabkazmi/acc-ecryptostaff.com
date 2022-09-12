@@ -1,0 +1,13 @@
+.TVChartContainer {
+  height: calc(100vh - 80px);
+}
+.layout__area--left {
+  color: white;
+}
+.txtBlack {
+  color: black !important;
+}
+.slider-image-class {
+  height: 150px;
+  width: 300px;
+}
